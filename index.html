@@ -1,58 +1,81 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Jowe Boy&apos;s Website</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonel Uriel Valdivia Terrera - CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Leonel Uriel Valdivia Terrera</h1>
+        <p>Estudiante en Desarrollo de Software</p>
+        <div class="contact">
+            <p>Teléfono: +54 261 533 2247</p>
+            <p>Email: leonelurielvaldiviaterrera@gmail.com</p>
+            <p>Ciudad: Argentina, Mendoza, Maipú</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/leonel-valdivia-terrera-95b165281" target="_blank">linkedin.com/in/leonel-valdivia-terrera-95b165281</a></p>
+            <p>GitHub: <a href="https://github.com/leovaldi" target="_blank">github.com/leovaldi</a></p>
+        </div>
+    </header>
+    
+    <section class="cv">
+        <h2>Currículum</h2>
+        <h3>Perfil Profesional</h3>
+        <p class="description">Estudiante avanzado de la Tecnicatura Universitaria en Desarrollo de Software en la Universidad Nacional de Cuyo...</p>
 
-	<body>
-		<header>
-			<div class="row">
-				<div class="logo">
-					<img src="assets/logo-new.png" alt="oe_logo">
-				</div>
-				<ul class="main-nav">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
-			<div class="hero">
-				<h1>Ready for Action?</h1>
-				<div class="button">
-					<a href="" class="btn btn-one">Watch Video</a>
-					<a href="" class="btn btn-two">Explore More</a>
-				</div>
-			</div>
-		</header>
-		<section class="service grid-container">
-		</section>
-		<section class="about grid-container">
-		</section>
-		<section class="blog grid-container">
-		</section>
-		<section class="contact grid-container">
-			<div class="contact-form grid-item">
-				<div class="contact-section-header">
-					<h2>Get in touch with us!</h2>
-				</div>
-				<form class="form">
-					<input type="text" name="fullname" placeholder="Fullname">
-					<input type="email" name="email" placeholder="Email Address">
-					<input type="number" name="phonenumber" placeholder="Phone Number">
-					<textarea class="subject" name="subject" placeholder="Your subject here..."></textarea>
-					<input class="button" type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="contact-form grid-item">
-			</div>
-		</section>
-		<section class="faq grid-container">
-		</section>
-	</body>
+        <h3>Habilidades Técnicas</h3>
+        <div class="skills">
+            <div class="skill-card">
+                <h4>Lenguajes de Programación</h4>
+                <p>C, C++, Java, Python, JavaScript, HTML, CSS</p>
+            </div>
+            <div class="skill-card">
+                <h4>Bases de Datos</h4>
+                <p>MySQL, MongoDB, Neo4j</p>
+            </div>
+            <div class="skill-card">
+                <h4>Herramientas y Tecnologías</h4>
+                <p>Docker, AWS Cloud (Certificación AWS Academy Graduate)</p>
+            </div>
+            <div class="skill-card">
+                <h4>Metodologías Ágiles</h4>
+                <p>Scrum, Kanban</p>
+            </div>
+        </div>
 
+        <h3>Formación Académica</h3>
+        <p>Tecnicatura Universitaria en Desarrollo de Software (75% completado) - Universidad Nacional de Cuyo</p>
+
+        <h3>Experiencia en Proyectos</h3>
+        <ul>
+            <li>Desarrollo de aplicación de escritorio en Java con POO y arquitectura MVC y MySQL</li>
+            <li>Desarrollo de página web para un mercado local</li>
+        </ul>
+
+        <h3>Idiomas y Habilidades Blandas</h3>
+        <ul>
+            <li>Inglés (Básico, en aprendizaje)</li>
+            <li>Trabajo en equipo, responsabilidad, adaptabilidad y resolución de problemas</li>
+        </ul>
+    </section>
+
+    <section class="cover-letter">
+        <h2>Carta de Presentación</h2>
+        <p>Estimado/a Responsable de Selección,</p>
+        <p>Me dirijo a usted con entusiasmo para postularme a una oportunidad en su empresa...</p>
+        <p>Atentamente,</p>
+        <p><strong>Leonel Uriel Valdivia Terrera</strong></p>
+        <button class="expand-button">Leer más</button>
+        <div class="full-letter">
+            <p>Mi interés en este puesto se debe a mi pasión por la resolución de problemas...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Leonel Uriel Valdivia Terrera. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./java.js"></script>
+</body>
 </html>
