@@ -1,4 +1,3 @@
-```markdown
 # Sitio Web Estático - Proyecto Kubernetes Minikube
 
 Este repositorio contiene el contenido del sitio web estático que será desplegado localmente en un entorno Kubernetes utilizando Minikube.
